@@ -7,7 +7,7 @@
 
 A TCP server to receive messages managed by a http server.
 
-## [DockerHub](https://hub.docker.com/r/ezequielmr94/oci-emulator)
+## [DockerHub](https://hub.docker.com/r/ezequielmr94/tcp-receiver)
 
 tcp-receiver is available on dockerhub. To run it, just execute:
 
