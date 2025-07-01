@@ -1,19 +1,18 @@
 # tcp_receiver
 
 ![Generic badge](https://img.shields.io/badge/python-3.9.2-blue)
-![Generic badge](https://img.shields.io/github/license/cameritelabs/oci-emulator)
+![Generic badge](https://img.shields.io/github/license/digital-divas/tcp_receiver)
 ![Generic badge](https://img.shields.io/badge/code%20style-black-000000.svg)
-![Python application](https://github.com/cameritelabs/oci-emulator/workflows/Python%20application/badge.svg)
-[![codecov](https://codecov.io/gh/cameritelabs/oci-emulator/branch/main/graph/badge.svg?token=5C8SX1Q6P9)](https://codecov.io/gh/cameritelabs/oci-emulator)
+![Python application](https://github.com/digital-divas/tcp_receiver/workflows/Python%20application/badge.svg)
 
 A TCP server to receive messages managed by a http server.
 
-## [DockerHub](https://hub.docker.com/r/cameritelabs/oci-emulator)
+## [DockerHub](https://hub.docker.com/r/ezequielmr94/oci-emulator)
 
 tcp-receiver is available on dockerhub. To run it, just execute:
 
 ```bash
-docker run -d -p 9950:9950 -p 9528:9528 cameritelabs/tcp-receiver:latest
+docker run -d -p 9950:9950 -p 9528:9528 ezequielmr94/tcp-receiver:latest
 ```
 
 The TCP Server will be available on port 9950 while the HTTP Server will be available on port 9528.
